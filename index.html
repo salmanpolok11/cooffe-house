@@ -7,7 +7,9 @@
   <title>Coffe House</title>
 
   <!-- Font-awesome link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- font link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +27,7 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            primary:'#1C1C1C',
+            primary: '#1C1C1C',
           }
         }
       }
@@ -49,24 +51,7 @@
 
   <header class="containar mr-auto">
     <div class="hero max-h-screen ">
-      <div class="hero-content flex-col lg:flex-row-reverse">
-        
-        <div>
-          <img src="/images/banner.png" class="max-w-sm"/>
-
-            <div class="flex items-center -mt-16 gap-6 drop-shadow-lg 
-            rounded-lg bg-yellow-100 p-5 w-[255px] h-[100px]">
-                 <div>
-                  <i class="fa-solid fa-star text-4xl text-amber-400 "></i>
-                 </div>
-                  <div>
-                     <h1 class="text-[#1C1C1C] font-bold font-[800px] text-[32px]">5.00</h1>
-                     <p>Trust Pilot Ratings</p>
-                  </div>
-            </div>  
-
-        </div>
-
+      <div class="flex-col-1 lg:flex">
         <div>
           <h1 class="text-7xl font-extrabold text-[#1C1C1C]">
             It's good <br>
@@ -74,15 +59,92 @@
             Tea House
           </h1>
           <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum <br>
-             Satisfaction To Your Taste 
-             Buds.</p>
+            Satisfaction To Your Taste
+            Buds.</p>
           <button class="btn btn-primary">Explore More</button>
+        </div>
+        <div>
+          <img src="/images/banner.png" class="max-w-sm" />
+
+          <div class="flex items-center -mt-16 gap-6 drop-shadow-lg 
+            rounded-lg bg-yellow-100 p-5 w-[255px] h-[100px]">
+            <div>
+              <i class="fa-solid fa-star text-4xl text-amber-400 "></i>
+            </div>
+            <div>
+              <h1 class="text-[#1C1C1C] font-bold font-[800px] text-[32px]">5.00</h1>
+              <p>Trust Pilot Ratings</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
 
   </header>
+
+
+
+  <main class="containar mx-auto my-24">
+    <section class="text-center">
+      <h1 class="text-[#1C1C1C] font-extrabold text-[45px] mb-5">Our Featured Products</h1>
+
+      <p class="text-center font-medium lg:max-w-4xl mx-auto mb-40">There are many variations of passages 
+        of Lorem Ipsum available, but the majority have suffered 
+         alteration in
+        some form, by injected humour, or randomised words which don't look even slightly believable. 
+       </p>
+  
+       <!-- card containar -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-4 lg:mx-40">
+    <!-- frist card -->
+
+    <div class="card  bg-gray-50 p-8 shadow-xl">
+      <figure><img src="/images/tea-1.png" alt="Shoes" /></figure>
+      <div class="card-body text-center">
+        <h2 class="text-2xl font-bold">Milk Tea</h2>
+        <p>Creamer could be replaced by fresh milk</p>
+      </div>
+    </div>
+     
+    <!-- 2nd card -->
+
+    <div class="card  bg-gray-50 p-8 shadow-xl">
+      <figure><img src="/images/tea-2.png" alt="Shoes" /></figure>
+      <div class="card-body text-center">
+        <h2 class="text-2xl font-bold">Milk Tea</h2>
+        <p>Creamer could be replaced by fresh milk</p>
+      </div>
+    </div>
+     
+    <!-- 3rd card -->
+
+    <div class="card  bg-gray-50 p-8 shadow-xl">
+      <figure><img src="/images/tea-3.png" alt="Shoes" /></figure>
+      <div class="card-body text-center">
+        <h2 class="text-2xl font-bold">Milk Tea</h2>
+        <p>Creamer could be replaced by fresh milk</p>
+      </div>
+    </div>
+     
+    <!-- 4th card -->
+
+    <div class="card  bg-gray-50 p-8 shadow-xl">
+      <figure><img src="/images/tea-4.png" alt="Shoes" /></figure>
+      <div class="card-body text-center">
+        <h2 class="text-2xl font-bold">Milk Tea</h2>
+        <p>Creamer could be replaced by fresh milk</p>
+      </div>
+    </div>
+     
+
+
+  </div>
+
+
+    </section>
+  </main>
 
 
 
